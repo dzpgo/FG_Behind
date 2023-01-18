@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+
+<BayBaseConfig>
+	<XMinInBay>-5000</XMinInBay>
+	<XMaxInBay>107000</XMaxInBay>
+	<YMinInBay>0</YMinInBay>
+	<YMaxInBay>31704</YMaxInBay>	
+</BayBaseConfig>
+<SafetyAreaConfig>
+
+
+<!-- ----------------------------------------------------------------------------------- -->
+	<Area>
+	  <Name>LOWER_STONEWAL</Name>  <!-- always red   whithout recommend area-->
+	  <XMin>-5000</XMin>	
+	  <XMax>1211</XMax>  
+	  <YMin>0</YMin>		
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+<!-- ----------------------------------------------------------------------------------- -->   
+	<Area>
+	  <Name>SACL_2_STONEWALL</Name>  <!-- always red   with recommend area -->
+	  <XMin>1211</XMin>
+	  <XMax>7893</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>11543</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>SACL_LANE_4</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+
+	<Area>
+	  <Name>SACL_ENTRY</Name>
+	  <XMin>7893</XMin>
+	  <XMax>19039</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>9745</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+	<Area>
+	  <Name>SACL_2_STONEWALL_SMALL</Name>  <!-- always red   with recommend area -->
+	  <XMin>7893</XMin>
+	  <XMax>8643</XMax>  
+	  <YMin>9745</YMin>
+	  <YMax>11543</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>SACL_LANE_4</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+
+	<Area>
+	  <Name>SACL_ENTRY_SAMLL</Name>
+	  <XMin>8643</XMin>
+	  <XMax>18289</XMax>  
+	  <YMin>9745</YMin>
+	  <YMax>11543</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+	
+	<Area>
+	  <Name>SACL_1_STONEWALL_SMALL</Name>  <!-- always red   with recommend area -->
+	  <XMin>18289</XMin>
+	  <XMax>19039</XMax>  
+	  <YMin>9745</YMin>
+	  <YMax>11543</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>SACL_LANE_2</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+	
+	<Area>
+	  <Name>SACL_1_STONEWALL</Name>  <!-- always red  with a recommend area-->
+	  <XMin>19039</XMin>
+	  <XMax>24915</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>11543</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>SACL_LANE_2</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+	
+	
+	<Area>
+	  <Name>SACL_LANE_4</Name>  <!--always green  without recommend area -->
+	  <XMin>1211</XMin>
+	  <XMax>8643</XMax>  
+	  <YMin>11543</YMin>
+	  <YMax>16648</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+<!-- ----------------------------------------------------------------------------------- -->	
+
+
+	<Area>
+	  <Name>SACL_LANE_3</Name>   <!--area always green  without recommend area -->
+	  <XMin>8643</XMin>
+	  <XMax>18289</XMax>  
+	  <YMin>11543</YMin>
+	  <YMax>16648</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+	<Area>
+	  <Name>SACL_LANE_2</Name>   <!--area always green  without recommend area -->
+	  <XMin>18289</XMin>
+	  <XMax>24915</XMax>  
+	  <YMin>11543</YMin>
+	  <YMax>16648</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>SACL_LANE_1</Name>   <!--area always green  without recommend area -->
+	  <XMin>24915</XMin>
+	  <XMax>33629</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>16648</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	
+
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>AREA_M</Name>
+	  <XMin>1211</XMin>
+	  <XMax>33629</XMax>  
+	  <YMin>16448</YMin>
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>18848</OnBordY>
+	  <RecommendArea1>SACL_LANE_1</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>AREA_K</Name>
+	  <XMin>33629</XMin>
+	  <XMax>50512</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>16648</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>AREA_L</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>AREA_L</Name>
+	  <XMin>33629</XMin>
+	  <XMax>50512</XMax>  
+	  <YMin>16648</YMin>
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>18848</OnBordY>
+	  <RecommendArea1>AREA_K</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>			
+	
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>PASSAGE_1</Name>
+	  <XMin>50512</XMin>
+	  <XMax>57400</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>16448</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>PASSAGE_2</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>PASSAGE_2</Name>
+	  <XMin>50512</XMin>
+	  <XMax>57400</XMax>  
+	  <YMin>16648</YMin>
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>18848</OnBordY>
+	  <RecommendArea1>PASSAGE_1</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>AREA_I</Name>
+	  <XMin>57400</XMin>
+	  <XMax>95708</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>16448</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>14448</OnBordY>
+	  <RecommendArea1>AREA_J</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	
+	<Area>
+	  <Name>AREA_J</Name>
+	  <XMin>57400</XMin>
+	  <XMax>95708</XMax>  
+	  <YMin>16448</YMin>
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>18448</OnBordY>
+	  <RecommendArea1>AREA_I</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>D202_EXIT</Name>
+	  <XMin>95708</XMin>
+	  <XMax>105000</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>UPPER_STONEWALL</Name>  <!-- always red  without recommend area-->
+	  <XMin>105000</XMin>
+	  <XMax>118603</XMax>  
+	  <YMin>0</YMin>
+	  <YMax>31704</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+</SafetyAreaConfig>
+
+
+<WorkInstructionsConfig>
+
+<!-- 起卷作业步骤定义-->
+     <!-- target 是单一的 如果没有任何指定，那么用描述符ANY  -->	
+     <!-- currentAreaList是可以多个的，如果没有任何指定，那么用描述符ANY 该项目不能为空 -->		 
+	 <!-- CurrentAreaExceptionList 可以是多个的，如果没有例外，就为空，有例外，就一项一项明确，该项目上不能使用ANY描述符 -->
+	 
+	<!-- 在1SACL 2SACL起卷，当前区域在SACL和黄点区域以外的所有区域-->
+	<WorkInstruction>
+		<Name>LIFT_COIL_FROM_SACL_ENTRY_1</Name>
+		<TYPE>COIL_UP</TYPE>
+		<Target>SACL_ENTRY</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY,SACL_LANE_3</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>
+		<Action>MOVE_TO_SPECIAL_POINT</Action>
+		
+		<SpecialPoint> <X>7500</X> <Y>13500</Y> </SpecialPoint>		
+	</WorkInstruction>
+	
+	<!-- 在1SACL 2SACL起卷，当前区域在SACL入口和和黄点区域以内-->
+	<WorkInstruction>
+		<Name>LIFT_COIL_FROM_SACL_ENTRY_2</Name>
+		<TYPE>COIL_UP</TYPE>	
+		<Target>SACL_ENTRY</Target>
+		<CurrentAreaList>SACL_ENTRY,SACL_LANE_3</CurrentAreaList>
+		<CurrentAreaExceptionList></CurrentAreaExceptionList>
+		<CanAcceptEvade>0</CanAcceptEvade>		
+		<Action>CHECK_COIL_POS</Action>	
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_COIL_POS</Action>		
+		<Action>COIL_UP</Action>				
+		<Action>UNLOCK_SADDLE</Action>		
+		<Action>MOVE_TO_SPECIAL_POINT</Action>		
+		<Action>FINISH_JOB</Action>		
+		
+		<SpecialPoint> <X>7500</X> <Y>13500</Y> </SpecialPoint>		
+	</WorkInstruction>	
+	
+	<!-- 在D202起卷，当前区域在D202区域以外的任何的区域-->	
+	<WorkInstruction>
+		<Name>LIFT_COIL_FROM_D202_1 </Name>
+		<TYPE>COIL_UP</TYPE>	
+		<Target>D202_EXIT</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY,D202_EXIT</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>
+		<Action>CHECK_COIL_POS</Action>				
+		<Action>MOVE_TO_COIL_POS</Action>			
+	</WorkInstruction>	
+	
+	<!-- 在D202起卷，当前区域在D202区域-->		
+	<WorkInstruction>
+		<Name>LIFT_COIL_FROM_D202_2 </Name>
+		<TYPE>COIL_UP</TYPE>		
+		<Target>D202_EXIT</Target>
+		<CurrentAreaList>D202_EXIT</CurrentAreaList>
+		<CurrentAreaExceptionList></CurrentAreaExceptionList>
+		<CanAcceptEvade>0</CanAcceptEvade>
+		<Action>CHECK_COIL_POS</Action>	
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_COIL_POS</Action>		
+		<Action>COIL_UP</Action>				
+		<Action>UNLOCK_SADDLE</Action>		
+		<Action>FINISH_JOB</Action>			
+	</WorkInstruction>	
+	
+	<!-- 在一般库区内起卷当前位置不包括1# 2#SCAL入口区域-->	
+	<WorkInstruction>
+		<Name>DEFAULT_UP</Name>
+		<TYPE>COIL_UP</TYPE>		
+		<Target>ANY</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>
+		<Action>CHECK_COIL_POS</Action>	
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_COIL_POS</Action>		
+		<Action>COIL_UP</Action>				
+		<Action>UNLOCK_SADDLE</Action>		
+		<Action>FINISH_JOB</Action>			
+	</WorkInstruction>		
+	
+
+
+<!-- 落卷作业步骤定义-->
+	<!-- 在1SACL 2SACL落卷，当前区域在SACL和黄点区域以外的所有区域-->
+	<WorkInstruction>
+		<Name>DOWN_COIL_TO_SACL_ENTRY_1</Name>
+		<TYPE>COIL_DOWN</TYPE>		
+		<Target>SACL_ENTRY</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY,SACL_LANE_3</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>		
+		<Action>MOVE_TO_SPECIAL_POINT</Action>		
+		
+		<SpecialPoint> <X>7500</X> <Y>13500</Y> </SpecialPoint>			
+	</WorkInstruction>
+	<!-- 在1SACL 2SACL落卷，当前区域在SACL入口和和黄点区域以内-->
+	<WorkInstruction>
+		<Name>DOWN_COIL_TO_SACL_ENTRY_2</Name>
+		<TYPE>COIL_DOWN</TYPE>			
+		<Target>SACL_ENTRY</Target>
+		<CurrentAreaList>SACL_ENTRY,SACL_LANE_3</CurrentAreaList>
+		<CurrentAreaExceptionList></CurrentAreaExceptionList>
+		<CanAcceptEvade>0</CanAcceptEvade>			
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_SADDLE_POS</Action>	
+		<Action>COIL_DOWN</Action>	
+		<Action>UNLOCK_SADDLE</Action>		
+		<Action>MOVE_TO_SPECIAL_POINT</Action>				
+		<Action>FINISH_JOB</Action>
+		
+		<SpecialPoint> <X>7500</X> <Y>13500</Y> </SpecialPoint>	
+	</WorkInstruction>		
+	
+	<!-- 在一般库区内落卷当前位置不包括1# 2#SCAL入口区域-->	
+	<WorkInstruction>
+		<Name>DEFAULT_DOWN</Name>
+		<TYPE>COIL_DOWN</TYPE>			
+		<Target>ANY</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>	
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_SADDLE_POS</Action>	
+		<Action>COIL_DOWN</Action>	
+		<Action>UNLOCK_SADDLE</Action>					
+		<Action>FINISH_JOB</Action>
+	</WorkInstruction>	
+	
+</WorkInstructionsConfig>
+
+
+
+</Config>
+

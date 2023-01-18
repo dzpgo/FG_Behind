@@ -1,0 +1,841 @@
+2022-03-24 15:35:10:676|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 15:35:10:685|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 15:35:10:685|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 15:35:10:753|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 15:35:10:754|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 15:35:10:754|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 15:35:10:756|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 15:35:10:757|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 15:35:10:765|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 15:35:10:765|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 15:35:10:774|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 15:35:10:775|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 15:42:01:336|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 15:42:01:336|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 15:42:01:336|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 15:42:01:336|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 15:42:01:336|INFO||HandleMessage|  lineno=2 
+2022-03-24 15:42:01:336|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=69byte ,msg id:AP001 
+2022-03-24 15:42:01:336|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 15:42:01:336|INFO||HandleMessage|  
+**********total size:  69 bytes**********
+0000  30-30-36-39 41-50-30-30 31-41-30-57 4d-20-20-20   0069AP001A0WM   
+0010  20-20-20-30 33-32-34-32 30-32-32-31 35-34-32-30      0324202215420
+0020  31-20-20-20 20-20-20-20 20-20-20-20 20-20-20-20   1               
+0030  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0040  0e-6f-05-00 03                                    .o...
+ 
+2022-03-24 15:42:01:336|INFO||HandleMessage|  telID = M    
+2022-03-24 15:42:01:336|DEBUG||HandleMessage|  Invoked OK  (0.3ms). 
+2022-03-24 15:47:02:230|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 15:47:02:230|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 15:47:02:230|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 15:47:02:230|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 15:47:02:230|INFO||HandleMessage|  lineno=8224 
+2022-03-24 15:47:02:230|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=8224byte ,msg id:        BU01o 
+2022-03-24 15:47:02:230|INFO||HandleMessage|  msgID =         BU01o 
+2022-03-24 15:47:02:230|INFO||HandleMessage|  
+**********total size:   5 bytes**********
+0000  0e-6f-05-00 03                                    .o...
+ 
+2022-03-24 15:47:02:230|DEBUG||HandleMessage|  Invoked OK  (0.134ms). 
+2022-03-24 15:48:36:856|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 15:48:36:856|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 15:48:36:857|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 15:48:36:857|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 15:48:36:857|INFO||HandleMessage|  lineno=2 
+2022-03-24 15:48:36:857|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=21byte ,msg id:AP001 
+2022-03-24 15:48:36:857|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 15:48:36:857|INFO||HandleMessage|  
+**********total size:  21 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 03                                    .o...
+ 
+2022-03-24 15:48:36:857|INFO||HandleMessage|  telID = BU01 
+2022-03-24 15:48:36:857|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 15:48:36:857|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 15:48:36:857|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 15:48:36:857|DEBUG||MsgBU01 :: HandleMessage()|  MsgBU01 :: HandleMessage()   error:[,COMPOSITE(0)] :  child 'STEEL_NO' not found. 
+2022-03-24 15:48:36:857|DEBUG||HandleMessage|  Invoked OK  (0.551ms). 
+2022-03-24 16:15:09:181|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 16:15:09:748|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 16:15:09:758|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 16:15:09:758|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 16:15:09:798|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 16:15:09:799|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 16:15:09:800|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 16:15:09:801|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 16:15:09:802|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 16:15:09:808|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 16:15:09:808|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 16:15:09:819|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 16:15:09:819|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 16:16:56:226|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 16:16:56:788|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 16:16:56:803|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 16:16:56:803|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 16:16:56:849|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 16:16:56:851|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 16:16:56:852|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 16:16:56:852|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 16:16:56:853|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 16:16:56:859|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 16:16:56:859|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 16:16:56:919|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 16:16:56:920|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 16:17:23:850|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 16:17:23:850|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:17:23:850|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 16:17:23:850|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:17:23:850|INFO||HandleMessage|  lineno=2 
+2022-03-24 16:17:23:850|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 16:17:23:850|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 16:17:23:850|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 d1-04-00-00 e9-02-00-00 03            .............
+ 
+2022-03-24 16:17:23:850|INFO||HandleMessage|  telID = BU01 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=538976288		 PLAN_TYPE=538976288		 PLAN_FLAG=538976288		 SCRAP_CODE£º825251138		 REQ_WEIGHT£º356110 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1		 REQ_WEIGHT£º1 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:17:23:851|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:17:23:851|DEBUG||HandleMessage|  Invoked OK  (1.268ms). 
+2022-03-24 16:23:56:276|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 16:23:56:834|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 16:23:56:842|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 16:23:56:843|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 16:23:56:887|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 16:23:56:888|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 16:23:56:890|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 16:23:56:890|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 16:23:56:891|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 16:23:56:897|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 16:23:56:897|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 16:23:56:908|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 16:23:56:908|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 16:26:07:342|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 16:26:07:921|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 16:26:07:931|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 16:26:07:931|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 16:26:07:995|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 16:26:07:997|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 16:26:07:998|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 16:26:07:998|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 16:26:07:999|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 16:26:08:007|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 16:26:08:007|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 16:26:08:035|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 16:26:08:036|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 16:26:12:096|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 16:26:12:096|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:26:12:096|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 16:26:12:096|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:26:12:096|INFO||HandleMessage|  lineno=2 
+2022-03-24 16:26:12:096|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 16:26:12:096|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 16:26:12:096|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 d1-04-00-00 e9-02-00-00 03            .............
+ 
+2022-03-24 16:26:12:096|INFO||HandleMessage|  telID = BU01 
+2022-03-24 16:26:12:096|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 16:26:12:096|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 16:26:12:096|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 16:26:12:096|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 16:26:12:098|ERROR||iPlature.GlobalErrorHandler|  
+________________________________________________________________________
+::GOT A UNRECOVERABLE ERROR, TYPE[Segmentation fault] CALL STACKS::
+::Time=2022-03-24 16:26:12.098
+iPlature::GlobalErrorHandler::SignalHandler(int)
+IceInternal::Incoming::invoke(IceInternal::Handle<IceInternal::ServantManager> const&)
+Ice::ConnectionI::invokeAll(IceInternal::BasicStream&, int, int, unsigned char, IceInternal::Handle<IceInternal::ServantManager> const&, IceInternal::Handle<Ice::ObjectAdapter> const&)
+Ice::ConnectionI::dispatch(IceUtil::Handle<Ice::ConnectionI::StartCallback> const&, std::vector<IceInternal::Handle<IceInternal::OutgoingAsyncMessageCallback>, std::allocator<IceInternal::Handle<IceInternal::OutgoingAsyncMessageCallback> > > const&, unsigned char, int, int, IceInternal::Handle<IceInternal::ServantManager> const&, IceInternal::Handle<Ice::ObjectAdapter> const&, IceInternal::Handle<IceInternal::OutgoingAsync> const&, IceInternal::BasicStream&)
+Ice::ConnectionI::message(IceInternal::ThreadPoolCurrent&)
+IceInternal::ThreadPool::run(IceUtil::Handle<IceUtil::Thread> const&)
+IceInternal::ThreadPool::EventHandlerThread::run()
+
+clone
+________________________________________________________________________ 
+2022-03-24 16:26:12:646|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 16:26:12:656|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 16:26:12:656|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 16:26:12:696|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 16:26:12:697|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 16:26:12:699|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 16:26:12:699|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 16:26:12:700|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 16:26:12:707|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 16:26:12:707|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 16:26:12:732|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 16:26:12:732|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 16:28:19:091|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 16:28:19:657|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 16:28:19:666|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 16:28:19:666|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 16:28:19:717|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 16:28:19:719|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 16:28:19:720|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 16:28:19:720|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 16:28:19:721|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 16:28:19:728|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 16:28:19:728|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 16:28:19:736|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 16:28:19:737|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 16:28:24:875|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 16:28:24:875|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:28:24:875|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 16:28:24:875|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:28:24:875|INFO||HandleMessage|  lineno=2 
+2022-03-24 16:28:24:875|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 16:28:24:875|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 16:28:24:876|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 d1-04-00-00 e9-02-00-00 03            .............
+ 
+2022-03-24 16:28:24:876|INFO||HandleMessage|  telID = BU01 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:28:24:876|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:28:24:876|DEBUG||HandleMessage|  Invoked OK  (0.958ms). 
+2022-03-24 16:30:38:482|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 16:30:38:482|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:30:38:483|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 16:30:38:483|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:30:38:483|INFO||HandleMessage|  lineno=2 
+2022-03-24 16:30:38:483|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 16:30:38:483|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 16:30:38:483|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 00-00-00-00 00-00-00-00 03            .............
+ 
+2022-03-24 16:30:38:483|INFO||HandleMessage|  telID = BU01 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:483|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:484|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:30:38:484|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:30:38:484|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º0		 REQ_WEIGHT£º0 
+2022-03-24 16:30:38:484|DEBUG||HandleMessage|  Invoked OK  (1.139ms). 
+2022-03-24 16:32:59:249|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 16:32:59:249|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:32:59:249|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 16:32:59:249|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 16:32:59:249|INFO||HandleMessage|  lineno=2 
+2022-03-24 16:32:59:249|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=181byte ,msg id:AP001 
+2022-03-24 16:32:59:249|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 16:32:59:249|INFO||HandleMessage|  
+**********total size: 181 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 03                                    .....
+ 
+2022-03-24 16:32:59:249|INFO||HandleMessage|  telID = BU01 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:249|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:250|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:250|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 16:32:59:250|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 16:32:59:250|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º3		 REQ_WEIGHT£º0 
+2022-03-24 16:32:59:250|DEBUG||HandleMessage|  Invoked OK  (0.833ms). 
+2022-03-24 17:06:10:235|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 17:06:10:235|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:06:10:235|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 17:06:10:235|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:06:10:235|INFO||HandleMessage|  lineno=2 
+2022-03-24 17:06:10:235|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 17:06:10:235|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 17:06:10:235|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 ff-ff-ff-7f ff-ff-ff-7f 03            ...........
+ 
+2022-03-24 17:06:10:235|INFO||HandleMessage|  telID = BU01 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:235|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:06:10:236|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:06:10:236|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º2147483647		 REQ_WEIGHT£º2147483647 
+2022-03-24 17:06:10:236|DEBUG||HandleMessage|  Invoked OK  (0.783ms). 
+2022-03-24 17:08:41:445|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 17:08:41:445|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:08:41:445|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 17:08:41:445|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:08:41:445|INFO||HandleMessage|  lineno=2 
+2022-03-24 17:08:41:445|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 17:08:41:445|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 17:08:41:445|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 80-00-00-00 80-00-00-00 03            .............
+ 
+2022-03-24 17:08:41:445|INFO||HandleMessage|  telID = BU01 
+2022-03-24 17:08:41:445|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 17:08:41:445|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 17:08:41:445|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:08:41:446|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º128		 REQ_WEIGHT£º128 
+2022-03-24 17:08:41:446|DEBUG||HandleMessage|  Invoked OK  (0.806ms). 
+2022-03-24 17:09:24:358|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 17:09:24:358|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:09:24:358|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 17:09:24:358|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:09:24:358|INFO||HandleMessage|  lineno=2 
+2022-03-24 17:09:24:358|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 17:09:24:358|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 17:09:24:359|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 00-00-00-80 00-00-00-80 03            .............
+ 
+2022-03-24 17:09:24:359|INFO||HandleMessage|  telID = BU01 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:09:24:359|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º-2147483648		 REQ_WEIGHT£º-2147483648 
+2022-03-24 17:09:24:359|DEBUG||HandleMessage|  Invoked OK  (0.822ms). 
+2022-03-24 17:12:26:300|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 17:12:26:889|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 17:12:26:899|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 17:12:26:899|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 17:12:26:977|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 17:12:26:978|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 17:12:26:979|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 17:12:26:979|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 17:12:26:980|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 17:12:26:986|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 17:12:26:986|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 17:12:26:996|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 17:12:26:996|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 17:12:38:563|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-24 17:12:38:563|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:12:38:563|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-24 17:12:38:563|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-24 17:12:38:563|INFO||HandleMessage|  lineno=2 
+2022-03-24 17:12:38:563|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-24 17:12:38:563|INFO||HandleMessage|  msgID = AP001 
+2022-03-24 17:12:38:563|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 00-00-00-80 00-00-00-80 03            .............
+ 
+2022-03-24 17:12:38:563|INFO||HandleMessage|  telID = BU01 
+2022-03-24 17:12:38:563|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-24 17:12:38:563|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  INT_MIN = -2147483648 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-24 17:12:38:564|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º-2147483648		 REQ_WEIGHT£º-2147483648 
+2022-03-24 17:12:38:564|DEBUG||HandleMessage|  Invoked OK  (0.966ms). 
+2022-03-24 18:50:01:289|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 18:50:01:852|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 18:50:01:864|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 18:50:01:864|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 18:50:01:907|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 18:50:01:910|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 18:50:01:911|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 18:50:01:912|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 18:50:01:913|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 18:50:01:919|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 18:50:01:919|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 18:50:01:934|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 18:50:01:935|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 19:02:10:193|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 19:02:10:954|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 19:02:10:964|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 19:02:10:964|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 19:02:11:108|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 19:02:11:109|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 19:02:11:110|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 19:02:11:111|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 19:02:11:112|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 19:02:11:119|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 19:02:11:120|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 19:02:11:130|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 19:02:11:130|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 19:05:03:290|INFO||EventWatchWithData|  strEventName:EV_BOFL2_SND_UB01 strValue: 351021,1,21,1,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761 
+2022-03-24 19:05:03:290|INFO||EventWatchWithData|  Start...... 
+2022-03-24 19:05:03:605|INFO||EventWatchWithData|  End...... 
+2022-03-24 19:14:21:308|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 19:14:21:880|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 19:14:21:889|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 19:14:21:889|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 19:14:21:929|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 19:14:21:931|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 19:14:21:932|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 19:14:21:933|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 19:14:21:934|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 19:14:21:940|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 19:14:21:940|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 19:14:21:952|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 19:14:21:952|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-24 19:14:58:731|INFO||EventWatchWithData|  strEventName:EV_BOFL2_SND_UB01 strValue: 351021,1,21,1,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761,1211,352,1254,761 
+2022-03-24 19:14:58:731|INFO||EventWatchWithData|  Start...... 
+2022-03-24 19:14:58:740|INFO||EventWatchWithData|  End...... 
+2022-03-24 19:19:01:620|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-24 19:19:02:244|INFO||APP_BOF_L2.Component.create|   
+2022-03-24 19:19:02:253|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-24 19:19:02:253|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-24 19:19:02:313|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-24 19:19:02:314|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-24 19:19:02:315|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-24 19:19:02:317|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-24 19:19:02:317|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-24 19:19:02:323|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-24 19:19:02:323|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-24 19:19:02:338|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-24 19:19:02:339|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-28 14:39:19:120|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-28 14:39:19:140|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:39:19:140|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-28 14:39:19:140|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:39:19:140|INFO||HandleMessage|  lineno=2 
+2022-03-28 14:39:19:140|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-28 14:39:19:140|INFO||HandleMessage|  msgID = AP001 
+2022-03-28 14:39:19:140|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 d1-04-00-00 e9-02-00-00 03            .............
+ 
+2022-03-28 14:39:19:158|INFO||HandleMessage|  telID = BU01 
+2022-03-28 14:39:19:160|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-28 14:39:19:160|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  INT_MIN = -2147483648 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:168|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:169|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:39:19:169|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:39:19:169|DEBUG||HandleMessage|  Invoked OK  (34.362ms). 
+2022-03-28 14:50:59:264|INFO||APP_BOF_L2.Component.destroy|  ===========STOP============ 
+2022-03-28 14:50:59:994|INFO||APP_BOF_L2.Component.create|   
+2022-03-28 14:51:00:003|INFO||APP_BOF_L2.Component.create|  ===========START============ 
+2022-03-28 14:51:00:003|INFO||PostInitCall|  APP_BOF_L2: 
+2022-03-28 14:51:00:049|INFO||MsgSmartDataManager|  Init Message SmartData : [AP001] ... ... 
+2022-03-28 14:51:00:054|INFO||MsgSmartDataManager|  Init Message SmartData : [BU01] ... ... 
+2022-03-28 14:51:00:056|INFO||MsgSmartDataManager|  Init Message SmartData : [UB01] ... ... 
+2022-03-28 14:51:00:057|INFO||MsgSmartDataManager|  Init Message SmartData : [UB02] ... ... 
+2022-03-28 14:51:00:058|INFO||CDataAccess::Initialize|  m_strDBStatus!iDA_DB2_Client 
+2022-03-28 14:51:00:065|INFO||CDataAccess::Initialize|  m_strDatabase=UACSDB01   m_strUsername=uacsapp  m_strPassword=uacsapp 
+2022-03-28 14:51:00:065|INFO||CDataAccess::Initialize|  DataBase Connected Success 
+2022-03-28 14:51:00:183|INFO||APP_BOF_L2.Component.subscribe|  Topic : [Tag/WatchWithDataTopic] Subscriber : [Tag/WatchWithDataTopic_APP_BOF_L2] QoS : [retryCount=-1] ok! 
+2022-03-28 14:51:00:184|DEBUG||APP_BOF_L2.Component.add|  adding object:	name=iPlature/APP_BOF_L2	type=::iPlature::MsgTube 
+2022-03-28 14:51:16:602|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-28 14:51:16:602|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:51:16:602|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-28 14:51:16:602|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:51:16:602|INFO||HandleMessage|  lineno=2 
+2022-03-28 14:51:16:602|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-28 14:51:16:602|INFO||HandleMessage|  msgID = AP001 
+2022-03-28 14:51:16:602|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 37-02-00-00 e9-02-00-00 03            ....7........
+ 
+2022-03-28 14:51:16:602|INFO||HandleMessage|  telID = BU01 
+2022-03-28 14:51:16:602|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-28 14:51:16:602|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  INT_MIN = -2147483648 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:51:16:603|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º567		 REQ_WEIGHT£º745 
+2022-03-28 14:51:16:603|DEBUG||HandleMessage|  Invoked OK  (0.965ms). 
+2022-03-28 14:56:34:532|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-28 14:56:34:532|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:56:34:532|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-28 14:56:34:532|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:56:34:532|INFO||HandleMessage|  lineno=2 
+2022-03-28 14:56:34:532|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-28 14:56:34:532|INFO||HandleMessage|  msgID = AP001 
+2022-03-28 14:56:34:532|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 37-02-00-00 00-00-00-80 03            ....7........
+ 
+2022-03-28 14:56:34:532|INFO||HandleMessage|  telID = BU01 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  INT_MIN = -2147483648 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:532|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:34:533|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º567		 REQ_WEIGHT£º-2147483648 
+2022-03-28 14:56:34:533|DEBUG||HandleMessage|  Invoked OK  (0.829ms). 
+2022-03-28 14:56:42:124|DEBUG||HandleMessage|  Invoked by:dummy 
+2022-03-28 14:56:42:124|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:56:42:124|INFO||HandleMessage|                                                                          data received                                                                                                                          
+2022-03-28 14:56:42:124|INFO||HandleMessage|  ****************************************************************************************************************************. 
+2022-03-28 14:56:42:124|INFO||HandleMessage|  lineno=2 
+2022-03-28 14:56:42:124|INFO||HandleMessage|  Tel. Received from XCOM-PCS OK!  data length=189byte ,msg id:AP001 
+2022-03-28 14:56:42:124|INFO||HandleMessage|  msgID = AP001 
+2022-03-28 14:56:42:124|INFO||HandleMessage|  
+**********total size: 189 bytes**********
+0000  20-20-20-20 20-20-20-20 20-20-20-20 42-55-30-31               BU01
+0010  0e-6f-05-00 01-00-00-00 01-00-00-00 cf-04-00-00   .o..............
+0020  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0030  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0040  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0050  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0060  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0070  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0080  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+0090  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00A0  8a-02-00-00 d1-04-00-00 e9-02-00-00 cf-04-00-00   ................
+00B0  8a-02-00-00 00-00-00-80 00-00-00-80 03            .............
+ 
+2022-03-28 14:56:42:124|INFO||HandleMessage|  telID = BU01 
+2022-03-28 14:56:42:124|INFO||MsgBU01 :: HandleMessage()|  ...... 
+2022-03-28 14:56:42:124|INFO||MsgBU01 :: HandleMessage()|  ........................................................................................log of samrt data................................................................................................................... 
+2022-03-28 14:56:42:124|INFO||MsgBU01 :: HandleMessage()|  ....... 
+2022-03-28 14:56:42:124|INFO||MsgBU01 :: HandleMessage()|  INT_MIN = -2147483648 
+2022-03-28 14:56:42:124|INFO||MsgBU01 :: HandleMessage()|  		 STEEL_NO=356110		 PLAN_TYPE=1		 PLAN_FLAG=1 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1233		 REQ_WEIGHT£º745 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º1231		 REQ_WEIGHT£º650 
+2022-03-28 14:56:42:125|INFO||MsgBU01 :: HandleMessage()|  		 SCRAP_CODE£º-2147483648		 REQ_WEIGHT£º-2147483648 
+2022-03-28 14:56:42:125|DEBUG||HandleMessage|  Invoked OK  (0.831ms). 

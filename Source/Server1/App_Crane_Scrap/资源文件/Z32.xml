@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+
+<BayBaseConfig>
+	<XMinInBay>11000</XMinInBay>
+	<XMaxInBay>196000</XMaxInBay>
+	<YMinInBay>800</YMinInBay>
+	<YMaxInBay>28500</YMaxInBay>	
+</BayBaseConfig>
+
+
+
+<SafetyAreaConfig>
+
+<!-- ----------------------------------------------------------------------------------- -->
+	<Area>
+	  <Name>UPPER_STONEWALL</Name>  
+	  <XMin>192000</XMin>	
+	  <XMax>196000</XMax>  
+	  <YMin>800</YMin>		
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+<!-- ----------------------------------------------------------------------------------- -->   
+	<Area>
+	  <Name>D202_EXIT</Name>  
+	  <XMin>184000</XMin>
+	  <XMax>192000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+	
+<!-- ----------------------------------------------------------------------------------- -->   	
+
+	<Area>
+	  <Name>AREA_A</Name>  
+	  <XMin>142000</XMin>
+	  <XMax>184000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>15509</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>13509</OnBordY>
+	  <RecommendArea1>AREA_B</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+	
+	<Area>
+	  <Name>AREA_B</Name>  
+	  <XMin>142000</XMin>
+	  <XMax>184000</XMax>  
+	  <YMin>15509</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>17509</OnBordY>
+	  <RecommendArea1>AREA_A</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>PASSAGE_1_1</Name>
+	  <XMin>138000</XMin>
+	  <XMax>142000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>15509</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>13509</OnBordY>
+	  <RecommendArea1>PASSAGE_1_2</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>PASSAGE_1_2</Name>
+	  <XMin>138000</XMin>
+	  <XMax>142000</XMax>  
+	  <YMin>15509</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>17509</OnBordY>
+	  <RecommendArea1>PASSAGE_1_1</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+	
+<!-- ----------------------------------------------------------------------------------- -->   	
+
+	<Area>
+	  <Name>AREA_C</Name>  
+	  <XMin>103000</XMin>
+	  <XMax>138000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>15509</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>13509</OnBordY>
+	  <RecommendArea1>AREA_D</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+	
+	<Area>
+	  <Name>AREA_D</Name>  
+	  <XMin>103000</XMin>
+	  <XMax>138000</XMax>  
+	  <YMin>15509</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>17509</OnBordY>
+	  <RecommendArea1>AREA_C</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+	
+	
+	<Area>
+	  <Name>AREA_E</Name>  
+	  <XMin>44000</XMin>
+	  <XMax>103000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>15509</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>13509</OnBordY>
+	  <RecommendArea1>AREA_F</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+	
+	<Area>
+	  <Name>AREA_F</Name>  
+	  <XMin>44000</XMin>
+	  <XMax>103000</XMax>  
+	  <YMin>15509</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>17509</OnBordY>
+	  <RecommendArea1>AREA_E</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>
+
+	
+
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>PASSAGE_2_1</Name>
+	  <XMin>40000</XMin>
+	  <XMax>44000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>15509</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>13509</OnBordY>
+	  <RecommendArea1>PASSAGE_2_2</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>PASSAGE_2_2</Name>
+	  <XMin>40000</XMin>
+	  <XMax>44000</XMax>  
+	  <YMin>15509</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>17509</OnBordY>
+	  <RecommendArea1>PASSAGE_2_1</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+	
+<!-- ----------------------------------------------------------------------------------- --> 	
+	<Area>
+	  <Name>D308_STONE_WALL_1</Name>  
+	  <XMin>24000</XMin>
+	  <XMax>40000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>1315</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+	<Area>
+	  <Name>D308_ENTRY</Name>
+	  <XMin>24000</XMin>
+	  <XMax>40000</XMax>  
+	  <YMin>1315</YMin>
+	  <YMax>3315</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+	
+	<Area>
+	  <Name>PASSAGE_D308</Name>
+	  <XMin>24000</XMin>
+	  <XMax>40000</XMax>  
+	  <YMin>3315</YMin>
+	  <YMax>7315</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>6315</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>AREA_G</Name>  
+	  <XMin>24000</XMin>
+	  <XMax>40000</XMax>  
+	  <YMin>7315</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>8315</OnBordY>
+	  <RecommendArea1>PASSAGE_D308</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+	
+<!-- ----------------------------------------------------------------------------------- -->	
+	
+	<Area>
+	  <Name>D308_STONE_WALL_2</Name>
+	  <XMin>20000</XMin>
+	  <XMax>24000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>7315</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>PASSAGE_D212</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	<Area>
+	  <Name>PASSAGE_D212</Name>
+	  <XMin>20000</XMin>
+	  <XMax>24000</XMax>  
+	  <YMin>7315</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+	
+<!-- ----------------------------------------------------------------------------------- -->	
+	<Area>
+	  <Name>D212_STONE_WALL_1</Name>
+	  <XMin>15000</XMin>
+	  <XMax>20000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>16257</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+
+	<Area>
+	  <Name>D212_ENTRY</Name>
+	  <XMin>15000</XMin>
+	  <XMax>20000</XMax>  
+	  <YMin>16257</YMin>
+	  <YMax>28213</YMax>
+	  <AlwaysForbid>0</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+	
+	<Area>
+	  <Name>D212_STONE_WALL_2</Name>
+	  <XMin>15000</XMin>
+	  <XMax>20000</XMax>  
+	  <YMin>28213</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>		
+	
+<!-- ----------------------------------------------------------------------------------- -->		
+
+	<Area>
+	  <Name>LOWER_WALL</Name>
+	  <XMin>11000</XMin>
+	  <XMax>15000</XMax>  
+	  <YMin>800</YMin>
+	  <YMax>28500</YMax>
+	  <AlwaysForbid>1</AlwaysForbid>
+	  <SafeTag>999999</SafeTag>
+	  <OnBordY>999999</OnBordY>
+	  <RecommendArea1>999999</RecommendArea1>
+	  <RecommendArea2>999999</RecommendArea2>	  
+    </Area>	
+<!-- ----------------------------------------------------------------------------------- -->		
+
+</SafetyAreaConfig>
+
+
+<WorkInstructionsConfig>
+
+<!-- 起卷作业步骤定义-->
+     <!-- target 是单一的 如果没有任何指定，那么用描述符ANY  -->	
+     <!-- currentAreaList是可以多个的，如果没有任何指定，那么用描述符ANY 该项目不能为空 -->		 
+	 <!-- CurrentAreaExceptionList 可以是多个的，如果没有例外，就为空，有例外，就一项一项明确，该项目上不能使用ANY描述符 -->
+	 
+
+
+	<!-- 在一般库区内起卷当前位置不包括1# 2#SCAL入口区域-->	
+	<WorkInstruction>
+		<Name>DEFAULT_UP</Name>
+		<TYPE>COIL_UP</TYPE>		
+		<Target>ANY</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>
+		<Action>CHECK_COIL_POS</Action>	
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_COIL_POS</Action>		
+		<Action>COIL_UP</Action>				
+		<Action>UNLOCK_SADDLE</Action>		
+		<Action>FINISH_JOB</Action>			
+	</WorkInstruction>		
+	
+
+
+<!-- 落卷作业步骤定义-->
+
+	
+	
+	<!-- 在一般库区内落卷当前位置不包括1# 2#SCAL入口区域-->	
+	<WorkInstruction>
+		<Name>DEFAULT_DOWN</Name>
+		<TYPE>COIL_DOWN</TYPE>			
+		<Target>ANY</Target>
+		<CurrentAreaList>ANY</CurrentAreaList>
+		<CurrentAreaExceptionList>SACL_ENTRY</CurrentAreaExceptionList>
+		<CanAcceptEvade>1</CanAcceptEvade>	
+		<Action>LOCK_SADDLE</Action>				
+		<Action>MOVE_TO_SADDLE_POS</Action>	
+		<Action>COIL_DOWN</Action>	
+		<Action>UNLOCK_SADDLE</Action>					
+		<Action>FINISH_JOB</Action>
+	</WorkInstruction>	
+	
+</WorkInstructionsConfig>
+
+
+
+</Config>
+

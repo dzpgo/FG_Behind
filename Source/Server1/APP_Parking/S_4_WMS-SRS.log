@@ -1,0 +1,119 @@
+2022-03-29 09:56:23:427|INFO|140289888855808|S_4_WMS-SRS||CXcomReceiver::Init|  Start LineNo 4 ... 
+2022-03-29 09:56:23:427|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Init|  protocol:22 
+2022-03-29 09:56:23:514|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Init|  Mode = [0] 
+2022-03-29 09:56:23:514|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-29 09:56:23:515|DEBUG|140289888855808|S_4_WMS-SRS||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-29 09:56:23:515|DEBUG|140289888855808|S_4_WMS-SRS||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-29 09:56:23:517|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-29 09:56:23:518|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Run|  wait for static connection 
+2022-03-29 09:56:23:518|DEBUG|140289888855808|S_4_WMS-SRS||RecvMsg_UDP|  in RecvMsg_UDP 
+2022-03-29 10:05:45:225|INFO|140289888855808|S_4_WMS-SRS||RecvMsg_UDP|  Received datagram from 192.168.137.1 
+2022-03-29 10:05:45:225|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Run|  nCount=1 
+2022-03-29 10:05:45:225|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::Run|  strMsgID=id01 
+2022-03-29 10:05:45:225|INFO|140289888855808|S_4_WMS-SRS||CXcomReceiver::Run|  receive msg OK! msgid=id01	length=226 
+2022-03-29 10:05:45:225|DEBUG|140289888855808|S_4_WMS-SRS||CXcomMsgNo22::Unpack|  
+**********total size: 242 bytes**********
+0000  e2-00-04-00 34-30-32-31 00-00-00-00 00-00-00-00   ....4021........
+0010  4c-55-30-31 23-7b-22-4b 45-59-5f-4d 65-73-73-61   LU01#{"KEY_Messa
+0020  67-65-4e-6f 22-3a-20-22 76-61-6c-75 65-31-22-2c   geNo": "value1",
+0030  22-4b-45-59 5f-54-72-65 61-74-6d-65 6e-74-4e-6f   "KEY_TreatmentNo
+0040  22-3a-20-22 76-61-6c-75 65-32-22-2c 22-4b-45-59   ": "value2","KEY
+0050  5f-43-72-61 6e-65-4e-6f 22-3a-20-22 76-61-6c-75   _CraneNo": "valu
+0060  65-33-22-2c 22-4b-45-59 5f-41-63-74 69-6f-6e-54   e3","KEY_ActionT
+0070  79-70-65-22 3a-20-22-76 61-6c-75-65 34-22-2c-22   ype": "value4","
+0080  4b-45-59-5f 50-6f-69-6e 74-73-22-3a 20-22-31-22   KEY_Points": "1"
+0090  2c-22-4b-45 59-5f-50-6f 69-6e-74-58 22-3a-20-22   ,"KEY_PointX": "
+00A0  76-61-6c-75 65-35-22-2c 22-4b-45-59 5f-50-6f-69   value5","KEY_Poi
+00B0  6e-74-59-22 3a-20-22-76 61-6c-75-65 36-22-2c-22   ntY": "value6","
+00C0  4b-45-59-5f 50-6f-69-6e 74-5a-22-3a 20-22-76-61   KEY_PointZ": "va
+00D0  6c-75-65-37 22-2c-22-4b 45-59-5f-52 65-73-75-6c   lue7","KEY_Resul
+00E0  74-53-74-61 74-65-22-3a 20-22-76-61 6c-75-65-38   tState": "value8
+00F0  22-7d                                             "}
+ 
+2022-03-29 10:05:45:225|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::NotifyApp|  no config receiving way,default way is to write Q... ... 
+2022-03-29 10:05:45:225|DEBUG|140289888855808|S_4_WMS-SRS||CXcomServer::WriteAppQ|  try_send strLineNo 4 
+2022-03-29 10:05:45:225|DEBUG|140289888855808|S_4_WMS-SRS||CXcomServer::WriteAppQ|  szLineNO:4 szMessageID:id01 send ok! 
+2022-03-29 10:05:45:236|DEBUG|140289888855808|S_4_WMS-SRS||CXcomReceiver::NotifyApp|  Call write Q OK ! ! 
+2022-03-29 10:05:45:236|DEBUG|140289888855808|S_4_WMS-SRS||RecvMsg_UDP|  in RecvMsg_UDP 
+2022-03-30 13:24:17:463|INFO|140289888855808|S_4_WMS-SRS||RecvMsg_UDP|  opposite side has closed the session! 
+2022-03-30 13:24:17:485|ERROR|140289888855808|S_4_WMS-SRS||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-30 13:24:17:987|DEBUG|140289888855808|S_4_WMS-SRS||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-30 13:24:18:587|DEBUG|140289888855808|S_4_WMS-SRS||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-30 13:24:18:587|INFO|140289888855808|S_4_WMS-SRS||CXcomReceiver::Exit|  exit ok 
+2022-03-30 13:58:11:098|INFO|140289899345664|S_4_WMS-SRS||CXcomReceiver::Init|  Start LineNo 4 ... 
+2022-03-30 13:58:11:098|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Init|  protocol:22 
+2022-03-30 13:58:11:108|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Init|  Mode = [0] 
+2022-03-30 13:58:11:108|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-30 13:58:11:109|DEBUG|140289899345664|S_4_WMS-SRS||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-30 13:58:11:109|DEBUG|140289899345664|S_4_WMS-SRS||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-30 13:58:11:110|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-30 13:58:11:111|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  wait for static connection 
+2022-03-30 13:58:11:111|DEBUG|140289899345664|S_4_WMS-SRS||RecvMsg_UDP|  in RecvMsg_UDP 
+2022-03-30 14:00:56:586|INFO|140289899345664|S_4_WMS-SRS||RecvMsg_UDP|  Received datagram from 192.168.137.1 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  nCount=1 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  strMsgID=id01 
+2022-03-30 14:00:56:586|INFO|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  receive msg OK! msgid=id01	length=293 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomMsgNo22::Unpack|  
+**********total size: 309 bytes**********
+0000  25-01-04-00 34-30-32-31 00-00-00-00 00-00-00-00   %...4021........
+0010  7b-0d-20-20 20-20-22-4b 45-59-5f-4d 65-73-73-61   {.    "KEY_Messa
+0020  67-65-4e-6f 22-3a-22-31 30-30-31-22 2c-0d-20-20   geNo":"1001",.  
+0030  20-20-22-4b 45-59-5f-54 72-65-61-74 6d-65-6e-74     "KEY_Treatment
+0040  4e-6f-22-3a 22-46-47-31 32-39-30-38 38-22-2c-0d   No":"FG129088",.
+0050  20-20-20-20 22-4b-45-59 5f-43-72-61 6e-65-4e-6f       "KEY_CraneNo
+0060  22-3a-22-32 5f-31-22-2c 0d-20-20-20 20-22-4b-45   ":"2_1",.    "KE
+0070  59-5f-41-63 74-69-6f-6e 54-79-70-65 22-3a-22-31   Y_ActionType":"1
+0080  22-2c-0d-20 20-20-20-22 4b-45-59-5f 50-6f-69-6e   ",.    "KEY_Poin
+0090  74-73-22-3a 7b-0d-20-20 20-20-20-20 20-20-22-31   ts":{.        "1
+00A0  22-3a-7b-0d 20-20-20-20 20-20-20-20 20-20-20-20   ":{.            
+00B0  22-4b-45-59 5f-50-6f-69 6e-74-58-22 3a-22-31-30   "KEY_PointX":"10
+00C0  36-37-30-31 22-2c-0d-20 20-20-20-20 20-20-20-20   6701",.         
+00D0  20-20-20-22 4b-45-59-5f 50-6f-69-6e 74-59-22-3a      "KEY_PointY":
+00E0  22-31-33-30 31-31-22-2c 0d-20-20-20 20-20-20-20   "13011",.       
+00F0  20-20-20-20 20-22-4b-45 59-5f-50-6f 69-6e-74-5a        "KEY_PointZ
+0100  22-3a-22-33 30-37-38-22 0d-20-20-20 20-20-20-20   ":"3078".       
+0110  20-7d-0d-20 20-20-20-7d 2c-0d-20-20 20-20-22-4b    }.    },.    "K
+0120  45-59-5f-52 65-73-75-6c 74-53-74-61 74-65-22-3a   EY_ResultState":
+0130  22-31-22-0d 7d                                    "1".}
+ 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::NotifyApp|  no config receiving way,default way is to write Q... ... 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomServer::WriteAppQ|  try_send strLineNo 4 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomServer::WriteAppQ|  szLineNO:4 szMessageID:id01 send ok! 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::NotifyApp|  Call write Q OK ! ! 
+2022-03-30 14:00:56:586|DEBUG|140289899345664|S_4_WMS-SRS||RecvMsg_UDP|  in RecvMsg_UDP 
+2022-03-30 14:03:42:951|INFO|140289899345664|S_4_WMS-SRS||RecvMsg_UDP|  Received datagram from 192.168.137.1 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  nCount=2 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  strMsgID=id01 
+2022-03-30 14:03:42:952|INFO|140289899345664|S_4_WMS-SRS||CXcomReceiver::Run|  receive msg OK! msgid=id01	length=298 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomMsgNo22::Unpack|  
+**********total size: 314 bytes**********
+0000  2a-01-04-00 34-30-32-31 00-00-00-00 00-00-00-00   *...4021........
+0010  4c-55-30-31 23-7b-0d-20 20-20-20-22 4b-45-59-5f   LU01#{.    "KEY_
+0020  4d-65-73-73 61-67-65-4e 6f-22-3a-22 31-30-30-31   MessageNo":"1001
+0030  22-2c-0d-20 20-20-20-22 4b-45-59-5f 54-72-65-61   ",.    "KEY_Trea
+0040  74-6d-65-6e 74-4e-6f-22 3a-22-46-47 31-32-39-30   tmentNo":"FG1290
+0050  38-38-22-2c 0d-20-20-20 20-22-4b-45 59-5f-43-72   88",.    "KEY_Cr
+0060  61-6e-65-4e 6f-22-3a-22 32-5f-31-22 2c-0d-20-20   aneNo":"2_1",.  
+0070  20-20-22-4b 45-59-5f-41 63-74-69-6f 6e-54-79-70     "KEY_ActionTyp
+0080  65-22-3a-22 31-22-2c-0d 20-20-20-20 22-4b-45-59   e":"1",.    "KEY
+0090  5f-50-6f-69 6e-74-73-22 3a-7b-0d-20 20-20-20-20   _Points":{.     
+00A0  20-20-20-22 31-22-3a-7b 0d-20-20-20 20-20-20-20      "1":{.       
+00B0  20-20-20-20 20-22-4b-45 59-5f-50-6f 69-6e-74-58        "KEY_PointX
+00C0  22-3a-22-31 30-36-37-30 31-22-2c-0d 20-20-20-20   ":"106701",.    
+00D0  20-20-20-20 20-20-20-20 22-4b-45-59 5f-50-6f-69           "KEY_Poi
+00E0  6e-74-59-22 3a-22-31-33 30-31-31-22 2c-0d-20-20   ntY":"13011",.  
+00F0  20-20-20-20 20-20-20-20 20-20-22-4b 45-59-5f-50             "KEY_P
+0100  6f-69-6e-74 5a-22-3a-22 33-30-37-38 22-0d-20-20   ointZ":"3078".  
+0110  20-20-20-20 20-20-7d-0d 20-20-20-20 7d-2c-0d-20         }.    },. 
+0120  20-20-20-22 4b-45-59-5f 52-65-73-75 6c-74-53-74      "KEY_ResultSt
+0130  61-74-65-22 3a-22-31-22 0d-7d                     ate":"1".}
+ 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::NotifyApp|  no config receiving way,default way is to write Q... ... 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomServer::WriteAppQ|  try_send strLineNo 4 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomServer::WriteAppQ|  szLineNO:4 szMessageID:id01 send ok! 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||CXcomReceiver::NotifyApp|  Call write Q OK ! ! 
+2022-03-30 14:03:42:952|DEBUG|140289899345664|S_4_WMS-SRS||RecvMsg_UDP|  in RecvMsg_UDP 

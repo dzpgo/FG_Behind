@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="slice2cpp Rules"
+	Version="8.00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="slice2cpp"
+			DisplayName="slice2cpp"
+			CommandLine="Set Dir=../slice&#x0D;&#x0A;Set outputDir=../../../include/clts/slice&#x0D;&#x0A;Set IceDir=../../../include/Ice-3.4.1/slice&#x0D;&#x0A;slice2cpp -I%IceDir% -I%Dir% --output-dir %outputDir% %Dir%/$(InputFileName)"
+			Outputs="$(InputName).h;$(InputName).cpp"
+			FileExtensions="*.ice"
+			ExecutionDescription="Executing tool..."
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>

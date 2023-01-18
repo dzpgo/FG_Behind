@@ -1,0 +1,1542 @@
+2022-02-18 13:57:23:841|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-02-18 13:57:23:842|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-02-18 13:57:23:842|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-02-18 13:57:23:842|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-02-18 13:57:23:843|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-02-18 13:57:23:843|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-02-18 13:57:23:844|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-02-18 13:57:23:844|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-02-18 14:05:52:805|ERROR|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  Accept Error ret=22 
+2022-02-18 14:05:53:406|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-02-18 14:05:53:406|ERROR|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketAcceptException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = Accept Error
+ 
+2022-02-18 14:05:53:906|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:05:54:507|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-02-18 14:05:54:507|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-02-18 14:06:02:370|INFO|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-02-18 14:06:02:370|DEBUG|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-02-18 14:06:02:370|DEBUG|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-02-18 14:06:02:370|DEBUG|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-02-18 14:06:02:371|DEBUG|140390281750272|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-02-18 14:06:02:371|DEBUG|140390281750272|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-02-18 14:06:02:372|DEBUG|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-02-18 14:06:02:373|DEBUG|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-02-18 14:06:10:206|ERROR|140390281750272|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  Accept Error ret=22 
+2022-02-18 14:06:10:807|DEBUG|140390281750272|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-02-18 14:06:10:807|ERROR|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketAcceptException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = Accept Error
+ 
+2022-02-18 14:06:11:308|DEBUG|140390281750272|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:06:11:909|DEBUG|140390281750272|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-02-18 14:06:11:909|INFO|140390281750272|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-02-18 14:06:26:630|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-02-18 14:06:26:630|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-02-18 14:06:26:630|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-02-18 14:06:26:630|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-02-18 14:06:26:631|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-02-18 14:06:26:631|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-02-18 14:06:26:632|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-02-18 14:06:26:633|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-02-18 14:06:27:059|INFO|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:19654 
+2022-02-18 14:06:27:060|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-18 14:07:40:857|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-02-18 14:07:40:857|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EW01 
+2022-02-18 14:07:40:857|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EW01	length=66 
+2022-02-18 14:07:40:857|DEBUG|140389957371648|S_3_WMS-EAFL2||Unpack|  
+**********total size:  82 bytes**********
+0000  42-00-03-00 45-57-30-31 00-00-00-00 00-00-00-00   B...EW01........
+0010  30-30-36-36 45-57-30-31 20-20-32-30 32-32-30-32   0066EW01  202202
+0020  31-38-31-34 30-37-34-30 45-41-46-20 45-41-46-20   18140740EAF EAF 
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  39-31-32-33 34-3b-32-33 32-33-32-33 3b-31-3b-3b   91234;232323;1;;
+0050  3b-0a                                             ;.
+ 
+2022-02-18 14:07:40:857|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-18 14:13:42:543|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:13:42:544|ERROR|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-02-18 14:13:42:544|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-02-18 14:13:55:120|INFO|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:19774 
+2022-02-18 14:13:55:120|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  the same ip! 
+2022-02-18 14:13:55:120|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-18 14:18:26:816|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:18:26:816|ERROR|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-02-18 14:18:27:318|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:18:27:919|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-02-18 14:18:27:919|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-02-18 14:18:48:379|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-02-18 14:18:48:379|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-02-18 14:18:48:379|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-02-18 14:18:48:379|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-02-18 14:18:48:380|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-02-18 14:18:48:380|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-02-18 14:18:48:381|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-02-18 14:18:48:382|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-02-18 14:18:48:572|INFO|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:19822 
+2022-02-18 14:18:48:572|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-18 14:22:54:702|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-02-18 14:22:54:702|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EW01 
+2022-02-18 14:22:54:702|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EW01	length=66 
+2022-02-18 14:22:54:702|DEBUG|140389957371648|S_3_WMS-EAFL2||Unpack|  
+**********total size:  34 bytes**********
+0000  12-00-03-00 45-57-30-31 00-00-00-00 00-00-00-00   ....EW01........
+0010  33-36-36-36 36-36-3b-34 37-37-37-37 37-3b-31-3b   366666;477777;1;
+0020  3b-3b                                             ;;
+ 
+2022-02-18 14:22:54:703|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-18 14:33:24:796|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:33:24:796|ERROR|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-02-18 14:33:25:297|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-18 14:33:25:898|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-02-18 14:33:25:898|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-02-18 14:33:35:664|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-02-18 14:33:35:664|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-02-18 14:33:35:665|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-02-18 14:33:35:665|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-02-18 14:33:35:666|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-02-18 14:33:35:666|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-02-18 14:33:35:667|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-02-18 14:33:35:668|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-02-18 14:33:37:479|INFO|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:20202 
+2022-02-18 14:33:37:479|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-18 14:34:18:187|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-02-18 14:34:18:187|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EW01 
+2022-02-18 14:34:18:187|INFO|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EW01	length=69 
+2022-02-18 14:34:18:187|DEBUG|140389957371648|S_3_WMS-EAFL2||Unpack|  
+**********total size:  21 bytes**********
+0000  34-38-38-38 38-38-3b-33 35-35-35-35 35-3b-31-3b   488888;355555;1;
+0010  31-3b-3b-3b 3b                                    1;;;;
+ 
+2022-02-18 14:34:18:187|DEBUG|140389957371648|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-02-28 13:34:19:287|ERROR|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::RecvException|  recv. Error! ret=-1ErrorCode=104 
+2022-02-28 13:34:19:788|DEBUG|140389957371648|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-02-28 13:34:19:789|ERROR|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketRecvException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = Recv body Error
+ 
+2022-02-28 13:34:19:789|DEBUG|140389957371648|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-24 10:13:32:709|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-24 10:13:32:714|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-24 10:13:32:714|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-24 10:13:32:714|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-24 10:13:32:715|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-24 10:13:32:715|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-24 10:13:32:717|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-24 10:13:32:717|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:21:30:707|ERROR|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  Accept Error ret=22 
+2022-03-25 10:21:31:352|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 10:21:31:380|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketAcceptException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = Accept Error
+ 
+2022-03-25 10:21:31:881|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:21:32:482|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 10:21:32:482|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 10:29:40:783|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 10:29:40:783|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 10:29:40:783|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 10:29:40:783|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 10:29:40:784|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 10:29:40:784|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 10:29:40:785|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 10:29:40:785|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:36:57:168|INFO|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:5376 
+2022-03-25 10:36:57:168|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 10:37:33:889|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:37:33:890|ERROR|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 10:37:33:890|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:38:01:262|INFO|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:5401 
+2022-03-25 10:38:01:262|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  the same ip! 
+2022-03-25 10:38:01:263|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 10:39:05:778|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:39:05:778|ERROR|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 10:39:06:279|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:39:06:880|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 10:39:06:880|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 10:39:23:120|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 10:39:23:120|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 10:39:23:120|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 10:39:23:120|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 10:39:23:121|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 10:39:23:121|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 10:39:23:122|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 10:39:23:122|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:39:24:573|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:5421 
+2022-03-25 10:39:24:574|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 10:39:31:447|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:39:31:447|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 10:39:31:447|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:39:47:431|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:5427 
+2022-03-25 10:39:47:431|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  the same ip! 
+2022-03-25 10:39:47:431|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 10:57:34:284|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:57:34:284|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 10:57:34:284|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:57:58:793|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:5833 
+2022-03-25 10:57:58:793|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  the same ip! 
+2022-03-25 10:57:58:793|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 10:58:32:618|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 10:58:32:618|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 10:58:32:618|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 10:58:55:814|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:5853 
+2022-03-25 10:58:55:814|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  the same ip! 
+2022-03-25 10:58:55:815|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 11:00:45:191|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 11:00:45:191|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 11:00:45:191|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 11:00:45:191|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 11:00:45:191|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 11:00:45:191|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 11:00:48:553|ERROR|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call	Failed! === 
+2022-03-25 11:00:48:553|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 13:17:53:794|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=2 
+2022-03-25 13:17:53:794|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 13:17:53:794|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 13:17:53:794|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 13:17:53:794|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 13:17:53:794|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 13:17:53:835|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 13:17:53:835|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 13:22:21:275|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=3 
+2022-03-25 13:22:21:275|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 13:22:21:275|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 13:22:21:275|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 13:22:21:275|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 13:22:21:275|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 13:22:21:281|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 13:22:21:281|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 13:32:28:285|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=4 
+2022-03-25 13:32:28:285|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 13:32:28:285|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 13:32:28:285|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 13:32:28:285|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 13:32:28:285|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 13:32:28:292|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 13:32:28:292|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 13:38:39:584|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=5 
+2022-03-25 13:38:39:584|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 13:38:39:584|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 13:38:39:585|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 13:38:39:585|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 13:38:39:585|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 13:38:39:591|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 13:38:39:591|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 14:31:56:252|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=6 
+2022-03-25 14:31:56:252|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 14:31:56:252|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 14:31:56:253|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 14:31:56:253|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 14:31:56:253|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 14:31:56:259|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 14:31:56:259|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 14:33:37:259|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=7 
+2022-03-25 14:33:37:259|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 14:33:37:259|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 14:33:37:259|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 14:33:37:259|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 14:33:37:259|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 14:33:37:267|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 14:33:37:267|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 14:33:38:565|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=8 
+2022-03-25 14:33:38:565|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 14:33:38:565|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 14:33:38:566|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 14:33:38:566|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 14:33:38:566|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 14:33:38:571|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 14:33:38:571|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 14:37:40:361|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=9 
+2022-03-25 14:37:40:361|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 14:37:40:361|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 14:37:40:361|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 14:37:40:361|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 14:37:40:361|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 14:37:40:367|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 14:37:40:367|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 14:40:37:684|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=10 
+2022-03-25 14:40:37:685|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 14:40:37:685|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 14:40:37:685|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 14:40:37:685|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 14:40:37:685|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 14:40:37:697|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 14:40:37:697|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:02:54:257|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=11 
+2022-03-25 15:02:54:257|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:02:54:257|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:02:54:257|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:02:54:257|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:02:54:257|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:02:54:262|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:02:54:262|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:05:12:604|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=12 
+2022-03-25 15:05:12:604|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:05:12:604|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:05:12:605|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:05:12:605|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:05:12:605|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:05:12:611|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:05:12:611|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:07:15:726|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=13 
+2022-03-25 15:07:15:726|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:07:15:726|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:07:15:726|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:07:15:726|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:07:15:726|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:07:15:732|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:07:15:732|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:11:33:261|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=14 
+2022-03-25 15:11:33:261|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:11:33:261|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:11:33:261|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:11:33:261|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:11:33:261|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:11:33:268|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:11:33:268|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:24:10:987|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=15 
+2022-03-25 15:24:10:987|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:24:10:987|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:24:10:987|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:24:10:987|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:24:10:987|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:24:10:993|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:24:10:993|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:42:37:214|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=16 
+2022-03-25 15:42:37:214|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:42:37:214|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:42:37:214|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:42:37:214|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:42:37:214|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:42:37:221|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:42:37:221|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:44:44:927|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=17 
+2022-03-25 15:44:44:927|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:44:44:927|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:44:44:928|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:44:44:928|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 15:44:44:928|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:44:44:934|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:44:44:934|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:50:17:237|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 15:50:17:238|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 15:50:17:738|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 15:50:18:340|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 15:50:18:340|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 15:50:53:623|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 15:50:53:623|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 15:50:53:630|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 15:50:53:630|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 15:50:53:631|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 15:50:53:631|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 15:50:53:632|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 15:50:53:636|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 15:50:54:318|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:13464 
+2022-03-25 15:50:54:318|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:53:55:385|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 15:53:55:385|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 15:53:55:385|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 15:53:55:385|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 15:53:55:385|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 15:53:55:385|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 15:53:55:404|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 15:53:55:404|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 15:59:23:824|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 15:59:23:824|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 15:59:24:324|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 15:59:24:925|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 15:59:24:925|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 15:59:36:783|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 15:59:36:783|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 15:59:36:783|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 15:59:36:783|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 15:59:36:784|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 15:59:36:784|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 15:59:36:785|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 15:59:36:786|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 15:59:37:032|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:13607 
+2022-03-25 15:59:37:033|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:00:09:048|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 16:00:09:048|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:00:09:048|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:00:09:049|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-35-31-36 30-30-30-39 57-4d-53-20 20-20-20-20   25160009WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-25 16:00:09:049|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 16:00:09:049|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:00:09:105|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:00:09:105|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:14:56:997|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:14:56:997|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 16:14:57:498|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:14:58:099|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 16:14:58:099|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 16:15:14:447|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 16:15:14:447|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 16:15:14:447|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 16:15:14:447|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 16:15:14:448|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 16:15:14:448|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 16:15:14:449|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 16:15:14:449|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 16:15:15:749|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:13833 
+2022-03-25 16:15:15:749|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:15:20:006|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:15:20:006|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 16:15:20:507|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:15:21:107|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 16:15:21:107|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 16:15:58:411|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 16:15:58:411|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 16:15:58:411|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 16:15:58:411|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 16:15:58:412|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 16:15:58:412|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 16:15:58:413|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 16:15:58:413|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 16:15:58:496|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:13847 
+2022-03-25 16:15:58:496|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:16:12:100|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 16:16:12:101|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:16:12:101|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:16:12:101|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 16:16:12:101|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 16:16:12:101|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:16:12:111|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:16:12:112|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:22:44:771|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:22:44:771|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 16:22:45:273|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:22:45:873|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 16:22:45:873|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 16:22:58:585|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 16:22:58:585|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 16:22:58:585|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 16:22:58:585|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 16:22:58:586|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 16:22:58:586|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 16:22:58:587|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 16:22:58:588|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 16:22:59:011|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:14048 
+2022-03-25 16:22:59:011|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:23:20:970|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 16:23:20:970|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:23:20:970|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:23:20:970|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 215 bytes**********
+0000  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0010  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0020  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0030  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0040  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0050  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0060  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0070  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 16:23:20:970|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 16:23:20:970|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:23:20:972|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:23:20:972|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:33:27:657|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:33:27:657|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 16:33:28:157|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:33:28:758|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 16:33:28:758|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 16:33:38:544|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 16:33:38:544|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 16:33:38:545|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 16:33:38:545|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 16:33:38:546|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 16:33:38:546|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 16:33:38:547|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 16:33:38:547|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 16:33:40:346|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:14263 
+2022-03-25 16:33:40:346|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:33:50:936|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 16:33:50:937|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:33:50:937|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:33:50:937|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-35-31-36 33-33-35-30 57-4d-53-20 20-20-20-20   25163350WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-25 16:33:50:937|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 16:33:50:937|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:33:50:942|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:33:50:942|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:41:11:689|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:41:11:689|ERROR|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 16:41:12:189|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:41:12:790|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 16:41:12:791|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 16:41:30:608|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 16:41:30:608|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 16:41:30:608|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 16:41:30:608|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 16:41:30:609|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 16:41:30:609|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 16:41:30:610|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 16:41:30:610|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 16:41:30:999|INFO|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:14393 
+2022-03-25 16:41:31:000|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:43:15:919|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 16:43:15:919|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:43:15:919|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:43:15:920|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-2c-37 37-36-39-35 32-2c-31-2c   315024,776952,1,
+0020  58-4d-36-38 36-31-55-35 2c-32-30-32 32-30-32-31   XM6861U5,2022021
+0030  36-31-38-35 37-34-30-2c 31-2c-2c-39 35-2c-31-32   6185740,1,,95,12
+0040  30-30-30-2c 31-31-2c-31 35-30-30-30 2c-39-37-2c   000,11,15000,97,
+0050  32-30-30-30 30-2c-39-34 2c-31-32-30 30-30-2c-32   20000,94,12000,2
+0060  2c-31-32-30 30-30-2c-31 34-2c-31-34 30-30-30-2c   ,12000,14,14000,
+0070  39-38-2c-31 32-30-30-30 2c-2c-2c-2c 2c-2c-2c-2c   98,12000,,,,,,,,
+0080  2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c   ,,,,,,,,,,,,,,,,
+0090  2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c   ,,,,,,,,,,,,,,,,
+00A0  2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c   ,,,,,,,,,,,,,,,,
+00B0  2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c   ,,,,,,,,,,,,,,,,
+00C0  2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c   ,,,,,,,,,,,,,,,,
+00D0  2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c 2c-2c-2c-2c   ,,,,,,,,,,,,,,,,
+00E0  2c-2c-2c-2c 2c-2c-2c                              ,,,,,,,
+ 
+2022-03-25 16:43:15:920|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 16:43:15:920|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:43:15:925|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:43:15:925|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:44:12:727|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:44:12:727|ERROR|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 16:44:13:228|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 16:44:13:829|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 16:44:13:829|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 16:45:09:640|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 16:45:09:640|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 16:45:09:640|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 16:45:09:640|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 16:45:09:641|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 16:45:09:641|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 16:45:09:642|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 16:45:09:642|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 16:45:09:903|INFO|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:14469 
+2022-03-25 16:45:09:903|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:45:45:847|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 16:45:45:847|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:45:45:847|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:45:45:847|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-35-31-36 34-35-34-35 57-4d-53-20 20-20-20-20   25164545WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-25 16:45:45:847|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 16:45:45:848|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:45:45:855|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:45:45:855|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 16:51:33:862|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=2 
+2022-03-25 16:51:33:862|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 16:51:33:862|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 16:51:33:862|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-35-31-36 35-31-33-33 57-4d-53-20 20-20-20-20   25165133WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-25 16:51:33:865|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 16:51:33:865|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 16:51:33:869|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 16:51:33:869|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 17:22:54:766|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=3 
+2022-03-25 17:22:54:766|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 17:22:54:766|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 17:22:54:766|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-35-31-37 32-32-35-34 57-4d-53-20 20-20-20-20   25172254WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-25 17:22:54:766|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 17:22:54:767|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 17:22:54:770|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 17:22:54:770|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 17:25:05:170|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=4 
+2022-03-25 17:25:05:170|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 17:25:05:170|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 17:25:05:171|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-35-31-37 32-35-30-35 57-4d-53-20 20-20-20-20   25172505WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-25 17:25:05:171|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-25 17:25:05:171|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 17:25:05:174|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 17:25:05:174|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 17:28:34:054|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 17:28:34:054|ERROR|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-25 17:28:34:555|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-25 17:28:35:156|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-25 17:28:35:156|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-25 17:28:54:382|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-25 17:28:54:382|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-25 17:28:54:382|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-25 17:28:54:382|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-25 17:28:54:383|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-25 17:28:54:383|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-25 17:28:54:385|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-25 17:28:54:385|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-25 17:28:54:842|INFO|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:15648 
+2022-03-25 17:28:54:842|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 17:32:02:394|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-25 17:32:02:394|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 17:32:02:394|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 17:32:02:395|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 17:32:02:395|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 17:32:02:395|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 17:32:02:401|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 17:32:02:401|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 17:35:41:665|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=2 
+2022-03-25 17:35:41:665|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 17:35:41:665|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 17:35:41:665|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 17:35:41:665|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 17:35:41:665|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 17:35:41:671|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 17:35:41:671|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 17:57:46:486|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=3 
+2022-03-25 17:57:46:486|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 17:57:46:486|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 17:57:46:487|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 17:57:46:487|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 17:57:46:487|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 17:57:46:557|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 17:57:46:557|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 18:02:50:877|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=4 
+2022-03-25 18:02:50:877|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 18:02:50:877|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 18:02:50:877|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 18:02:50:877|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 18:02:50:877|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 18:02:50:885|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 18:02:50:885|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 18:03:22:692|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=5 
+2022-03-25 18:03:22:692|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 18:03:22:692|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 18:03:22:692|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 18:03:22:692|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 18:03:22:692|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 18:03:22:698|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 18:03:22:698|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 18:33:51:849|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=6 
+2022-03-25 18:33:51:849|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 18:33:51:849|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 18:33:51:849|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 18:33:51:849|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 18:33:51:849|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 18:33:51:856|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 18:33:51:856|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 18:48:51:637|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=7 
+2022-03-25 18:48:51:637|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 18:48:51:637|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 18:48:51:637|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 18:48:51:638|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 18:48:51:638|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 18:48:51:644|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 18:48:51:644|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:02:49:319|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=8 
+2022-03-25 19:02:49:319|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:02:49:320|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:02:49:320|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:02:49:320|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:02:49:320|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:02:49:326|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:02:49:326|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:08:00:681|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=9 
+2022-03-25 19:08:00:681|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:08:00:681|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:08:00:681|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:08:00:681|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:08:00:681|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:08:00:687|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:08:00:687|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:08:04:182|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=10 
+2022-03-25 19:08:04:182|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:08:04:182|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:08:04:182|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:08:04:182|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:08:04:182|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:08:04:188|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:08:04:188|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:14:05:275|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=11 
+2022-03-25 19:14:05:275|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:14:05:275|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:14:05:275|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:14:05:275|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:14:05:275|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:14:05:281|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:14:05:282|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:16:26:707|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=12 
+2022-03-25 19:16:26:707|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:16:26:707|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:16:26:707|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:16:26:707|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:16:26:707|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:16:26:713|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:16:26:713|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:19:40:883|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=13 
+2022-03-25 19:19:40:883|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:19:40:883|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:19:40:883|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:19:40:883|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:19:40:884|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:19:40:890|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:19:40:890|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:24:17:416|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=14 
+2022-03-25 19:24:17:416|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:24:17:416|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:24:17:417|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:24:17:417|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:24:17:417|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:24:17:422|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:24:17:422|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 19:32:43:785|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=15 
+2022-03-25 19:32:43:785|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 19:32:43:785|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 19:32:43:786|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 19:32:43:786|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 19:32:43:786|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 19:32:43:791|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 19:32:43:792|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-25 20:17:02:627|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=16 
+2022-03-25 20:17:02:627|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-25 20:17:02:627|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-25 20:17:02:627|DEBUG|140290232923904|S_3_WMS-EAFL2||Unpack|  
+**********total size: 231 bytes**********
+0000  d7-00-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  33-31-35-30 32-34-3b-37 37-36-39-35 32-3b-31-3b   315024;776952;1;
+0020  58-4d-36-38 36-31-55-35 3b-32-30-32 32-30-32-31   XM6861U5;2022021
+0030  36-31-38-35 37-34-30-3b 31-3b-3b-39 35-3b-31-32   6185740;1;;95;12
+0040  30-30-30-3b 31-31-3b-31 35-30-30-30 3b-39-37-3b   000;11;15000;97;
+0050  32-30-30-30 30-3b-39-34 3b-31-32-30 30-30-3b-32   20000;94;12000;2
+0060  3b-31-32-30 30-30-3b-31 34-3b-31-34 30-30-30-3b   ;12000;14;14000;
+0070  39-38-3b-31 32-30-30-30 3b-3b-3b-3b 3b-3b-3b-3b   98;12000;;;;;;;;
+0080  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0090  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00A0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b                              ;;;;;;;
+ 
+2022-03-25 20:17:02:627|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:APP_EAF_L2 
+2022-03-25 20:17:02:628|DEBUG|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-25 20:17:02:635|INFO|140290232923904|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-25 20:17:02:635|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-28 09:28:28:385|ERROR|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::RecvException|  recv. Error! ret=-1ErrorCode=104 
+2022-03-28 09:28:28:885|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-28 09:28:28:885|ERROR|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketRecvException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = Recv body Error
+ 
+2022-03-28 09:28:28:885|DEBUG|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-28 09:31:56:297|INFO|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:2775 
+2022-03-28 09:31:56:297|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  the same ip! 
+2022-03-28 09:31:56:298|DEBUG|140290232923904|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-28 09:32:27:751|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-28 09:32:27:751|ERROR|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Run|  Throw in function (unknown)
+Dynamic exception type: iXcomTCP2::SocketCloseException
+std::exception::what: std::exception
+[iXcomTCP2::tag_reason*] = opposite side has closed the session!
+ 
+2022-03-28 09:32:28:252|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::CloseListenSocket|  close ListenSocket ok! 
+2022-03-28 09:32:28:852|DEBUG|140290232923904|S_3_WMS-EAFL2||CStaticSendSocket::Close|  close Socket ok! 
+2022-03-28 09:32:28:852|INFO|140290232923904|S_3_WMS-EAFL2||CXcomReceiver::Exit|  exit ok 
+2022-03-28 09:32:55:164|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Start LineNo 3 ... 
+2022-03-28 09:32:55:164|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  protocol:Custom 
+2022-03-28 09:32:55:164|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  Mode = [0] 
+2022-03-28 09:32:55:164|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Init|  DllName = [NotifyApp] 
+2022-03-28 09:32:55:165|DEBUG|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Init|  ResponsionTimeOut=5 
+2022-03-28 09:32:55:165|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomBase::Create|  in CXcomBase::Create() 
+2022-03-28 09:32:55:166|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  in CXcomReceiver::Run()	 
+2022-03-28 09:32:55:166|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  wait for static connection 
+2022-03-28 09:32:55:590|INFO|140290625525504|S_3_WMS-EAFL2||CStaticSendSocket::Accept|  connected ok! opposite side IP:192.168.137.1 opposite side port:2808 
+2022-03-28 09:32:55:590|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
+2022-03-28 09:34:22:926|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  nCount=1 
+2022-03-28 09:34:22:926|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  strMsgID=EU01 
+2022-03-28 09:34:22:926|INFO|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::Run|  receive msg OK! msgid=EU01	length=263 
+2022-03-28 09:34:22:926|DEBUG|140290625525504|S_3_WMS-EAFL2||Unpack|  
+**********total size: 279 bytes**********
+0000  07-01-03-00 45-55-30-31 00-00-00-00 00-00-00-00   ....EU01........
+0010  30-32-36-33 45-55-30-31 45-41-32-30 32-32-30-33   0263EU01EA202203
+0020  32-38-30-39 33-34-32-32 57-4d-53-20 20-20-20-20   28093422WMS     
+0030  20-20-20-20 20-20-20-20 20-20-20-20 20-20-20-33                  3
+0040  31-35-30-32 34-3b-37-37 36-39-35-32 3b-31-3b-58   15024;776952;1;X
+0050  4d-36-38-36 31-55-35-3b 32-30-32-32 30-32-31-36   M6861U5;20220216
+0060  31-38-35-37 34-30-3b-31 3b-3b-39-35 3b-31-32-30   185740;1;;95;120
+0070  30-30-3b-31 31-3b-31-35 30-30-30-3b 39-37-3b-32   00;11;15000;97;2
+0080  30-30-30-30 3b-39-34-3b 31-32-30-30 30-3b-32-3b   0000;94;12000;2;
+0090  31-32-30-30 30-3b-31-34 3b-31-34-30 30-30-3b-39   12000;14;14000;9
+00A0  38-3b-31-32 30-30-30-3b 3b-3b-3b-3b 3b-3b-3b-3b   8;12000;;;;;;;;;
+00B0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00C0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00D0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00E0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+00F0  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0100  3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b 3b-3b-3b-3b   ;;;;;;;;;;;;;;;;
+0110  3b-3b-3b-3b 3b-3b-0a                              ;;;;;;.
+ 
+2022-03-28 09:34:22:926|DEBUG|140290625525504|S_3_WMS-EAFL2||CXcomReceiver::NotifyApp|  Notify process is:XCOMPCS_PT_Adapter 
+2022-03-28 09:34:22:926|DEBUG|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Begin NotifyApp... ... 
+2022-03-28 09:34:22:931|INFO|140290625525504|S_3_WMS-EAFL2||NotifySend|   === Call ok! === 
+2022-03-28 09:34:22:931|DEBUG|140290625525504|S_3_WMS-EAFL2||RecvMsg_WithEndFlag|  Wait for receiving data 
